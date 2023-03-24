@@ -1,0 +1,34 @@
+site_name: Entwickler/in digitales Business EFZ
+nav:
+    - Home: index.md
+    - Unterteil: 
+      - About: about.md
+      - About: about.md
+theme:
+  name: material
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      accent: lime
+      primary: lime
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      accent: lime
+      primary: lime
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Roboto
+  features:
+    - navigation.tabs
+    - navigation.footer
+  extra:
+    generator: false
+copyright: Copyright &copy; 2023 - Oliver Lux
+repo_url: https://github.com/gbssg/edb
+
